@@ -610,7 +610,7 @@ const Page = () => {
           <div
             className="modal fade"
             id="successModal"
-            tabIndex="-1"
+            tabIndex = {-1}
             aria-labelledby="successModalLabel"
             aria-hidden="true"
             onClick={(e) => {
